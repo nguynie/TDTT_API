@@ -4,7 +4,7 @@ This script is structured to help you deliver an A+ demonstration video fulfilli
 
 ---
 
-## ⏱️ Timing Breakdown & Outline
+## Timing Breakdown and Outline
 
 | Time | Section | Key Talking Points & Actions |
 |---|---|---|
@@ -16,7 +16,7 @@ This script is structured to help you deliver an A+ demonstration video fulfilli
 
 ---
 
-## 🎙️ Step-by-Step Speaking Script
+## Step-by-Step Speaking Script
 
 ### Part 1: Introduction (0:00 - 0:45)
 - **What to show on screen**: Face camera or Title slide / GitHub repository homepage.
@@ -91,7 +91,7 @@ This script is structured to help you deliver an A+ demonstration video fulfilli
 
 ---
 
-## 💡 Quick Tips for Recording
+## Recommendations for Recording
 - **Resolution**: 1080p (1920x1080) is recommended.
 - **Audio**: Use a headset or clear microphone in a quiet room.
 - **Time limit**: Keep it strictly under 5 minutes (target 4:00 - 4:45).

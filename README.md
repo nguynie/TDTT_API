@@ -5,7 +5,7 @@
 
 ---
 
-## 👨‍🎓 Student Information
+## Student Information
 
 - **Full Name**: *[Nguyen Van A / Your Name Here]*
 - **Student ID**: *[22120000 / Your Student ID Here]*
@@ -15,7 +15,7 @@
 
 ---
 
-## 🤖 Selected Hugging Face Model
+## Selected Hugging Face Model
 
 - **Model Identifier**: [`distilbert/distilbert-base-uncased-finetuned-sst-2-english`](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english)
 - **Model Type**: Text Classification / Sentiment Analysis
@@ -28,7 +28,7 @@
 
 ---
 
-## 📋 System Functionality Overview
+## System Functionality Overview
 
 This project implements a production-grade Web API built with **FastAPI** that deploys the Hugging Face sentiment analysis model for real-time inference.
 
@@ -44,7 +44,7 @@ This project implements a production-grade Web API built with **FastAPI** that d
 
 ---
 
-## 📂 Source Code Structure
+## Source Code Structure
 
 ```
 TDTT_API/
@@ -69,7 +69,7 @@ TDTT_API/
 
 ---
 
-## ⚙️ Installation & Setup Instructions
+## Installation and Setup Instructions
 
 ### Prerequisites
 - Python 3.10+ (Recommended: **Python 3.11**)
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Start Development Server with Uvicorn
 Run the following command from the root project directory:
@@ -129,7 +129,7 @@ The server is now live at: `http://127.0.0.1:8000`
 
 ---
 
-## 📡 API Endpoints & Usage Examples
+## API Endpoints and Usage Examples
 
 ### 1. Root Endpoint (`GET /`)
 Returns system information, active model identifier, and links to documentation.
@@ -299,7 +299,7 @@ print(json.dumps(data, indent=2))
 
 ---
 
-## 🧪 Testing the API
+## Testing the API
 
 ### Method 1: Using the `requests` Library Test Script
 *(Directly fulfills Section 4 requirement of the assignment)*
@@ -322,7 +322,7 @@ pytest tests/test_api_client.py -v
 
 ---
 
-## 📹 Demonstration Video
+## Demonstration Video
 
 - **Video Link**: [YouTube / Google Drive Link Here](https://youtu.be/your-demo-video-link)
 - **Duration**: Under 5 minutes
@@ -330,6 +330,6 @@ pytest tests/test_api_client.py -v
 
 ---
 
-## 📜 License & Acknowledgments
+## License and Acknowledgments
 - Assignment developed for **Practice 01: Application Programming Interface**, Faculty of Information Technology, University of Science, VNU-HCM.
 - Hugging Face Model: [DistilBERT Base Uncased Finetuned SST-2](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) by the Hugging Face team.

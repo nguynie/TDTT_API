@@ -32,10 +32,10 @@ def test_root_endpoint(base_url: str) -> bool:
         assert "name" in data
         assert "version" in data
         assert "endpoints" in data
-        print("✅ Root endpoint test passed!")
+        print("[PASS] Root endpoint test passed.")
         return True
     except Exception as exc:
-        print(f"❌ Root endpoint test failed: {exc}")
+        print(f"[FAIL] Root endpoint test failed: {exc}")
         return False
 
 
@@ -55,10 +55,10 @@ def test_health_endpoint(base_url: str) -> bool:
         assert "model_name" in data
         assert "device" in data
         assert "timestamp" in data
-        print("✅ Health check endpoint test passed!")
+        print("[PASS] Health check endpoint test passed.")
         return True
     except Exception as exc:
-        print(f"❌ Health check endpoint test failed: {exc}")
+        print(f"[FAIL] Health check endpoint test failed: {exc}")
         return False
 
 
@@ -84,11 +84,11 @@ def test_predict_positive(base_url: str) -> bool:
         assert prediction["label"] == "POSITIVE"
         assert prediction["score"] > 0.8
         print(
-            f"✅ Positive prediction test passed! Predicted: {prediction['label']} ({prediction['score'] * 100:.2f}%)"
+            f"[PASS] Positive prediction test passed. Predicted: {prediction['label']} ({prediction['score'] * 100:.2f}%)"
         )
         return True
     except Exception as exc:
-        print(f"❌ Positive prediction test failed: {exc}")
+        print(f"[FAIL] Positive prediction test failed: {exc}")
         return False
 
 
@@ -114,11 +114,11 @@ def test_predict_negative(base_url: str) -> bool:
         assert prediction["label"] == "NEGATIVE"
         assert prediction["score"] > 0.8
         print(
-            f"✅ Negative prediction test passed! Predicted: {prediction['label']} ({prediction['score'] * 100:.2f}%)"
+            f"[PASS] Negative prediction test passed. Predicted: {prediction['label']} ({prediction['score'] * 100:.2f}%)"
         )
         return True
     except Exception as exc:
-        print(f"❌ Negative prediction test failed: {exc}")
+        print(f"[FAIL] Negative prediction test failed: {exc}")
         return False
 
 
@@ -146,10 +146,10 @@ def test_predict_batch(base_url: str) -> bool:
         assert len(data["results"]) == 2
         assert data["results"][0]["label"] == "POSITIVE"
         assert data["results"][1]["label"] == "NEGATIVE"
-        print("✅ Batch prediction test passed!")
+        print("[PASS] Batch prediction test passed.")
         return True
     except Exception as exc:
-        print(f"❌ Batch prediction test failed: {exc}")
+        print(f"[FAIL] Batch prediction test failed: {exc}")
         return False
 
 
@@ -165,10 +165,10 @@ def test_error_handling_empty_payload(base_url: str) -> bool:
         print(json.dumps(response.json(), indent=2))
 
         assert response.status_code in (400, 422), f"Expected 400/422, got {response.status_code}"
-        print("✅ Correctly rejected empty payload!")
+        print("[PASS] Correctly rejected empty payload.")
         return True
     except Exception as exc:
-        print(f"❌ Empty payload test failed: {exc}")
+        print(f"[FAIL] Empty payload test failed: {exc}")
         return False
 
 
@@ -184,10 +184,10 @@ def test_error_handling_blank_text(base_url: str) -> bool:
         print(json.dumps(response.json(), indent=2))
 
         assert response.status_code in (400, 422), f"Expected 400/422, got {response.status_code}"
-        print("✅ Correctly rejected whitespace-only input!")
+        print("[PASS] Correctly rejected whitespace-only input.")
         return True
     except Exception as exc:
-        print(f"❌ Blank text test failed: {exc}")
+        print(f"[FAIL] Blank text test failed: {exc}")
         return False
 
 
@@ -228,10 +228,10 @@ def main() -> None:
     print(f"Failed      : {failed}")
 
     if failed > 0:
-        print("\n❌ Some tests failed!")
+        print("\n[FAIL] Some tests failed.")
         sys.exit(1)
     else:
-        print("\n🎉 All requests library tests passed successfully!")
+        print("\n[SUCCESS] All requests library tests passed successfully.")
         sys.exit(0)
 
 
