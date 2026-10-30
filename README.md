@@ -10,7 +10,7 @@
 - **Full Name**: *[Nguyen Van A / Your Name Here]*
 - **Student ID**: *[22120000 / Your Student ID Here]*
 - **Class**: *[22_1 / Your Class Here]*
-- **Repository**: *[Link to public GitHub repository]*
+- **Repository**: [https://github.com/Nguynie/TDTT_API](https://github.com/Nguynie/TDTT_API)
 - **Demonstration Video**: [Watch Demo Video on YouTube / Google Drive](https://youtu.be/your-demo-video-link) *(replace with your link)*
 
 ---
@@ -78,7 +78,7 @@ TDTT_API/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/TDTT_API.git
+git clone https://github.com/Nguynie/TDTT_API.git
 cd TDTT_API
 ```
 
