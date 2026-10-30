@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""API Test Script using the `requests` library.
-
-Fulfills the requirement from HCMUS FIT Practice 01:
-'At least one Python file for testing the API using the requests library.'
-"""
+"""API Test Script using the `requests` library for HCMUS FIT Practice 01."""
 
 import argparse
 import json

@@ -7,11 +7,10 @@
 
 ## Student Information
 
-- **Full Name**: *[Nguyen Van A / Your Name Here]*
-- **Student ID**: *[22120000 / Your Student ID Here]*
-- **Class**: *[22_1 / Your Class Here]*
+- **Full Name**: Nguyen Ngoc Phuc Nguyen
+- **Student ID**: 25127434
 - **Repository**: [https://github.com/Nguynie/TDTT_API](https://github.com/Nguynie/TDTT_API)
-- **Demonstration Video**: [Watch Demo Video on YouTube / Google Drive](https://youtu.be/your-demo-video-link) *(replace with your link)*
+- **Demonstration Video**: [Watch Demo Video on YouTube / Google Drive](https://youtu.be/your-demo-video-link)
 
 ---
 
@@ -299,7 +298,6 @@ print(json.dumps(data, indent=2))
 ## Testing the API
 
 ### Method 1: Using the `requests` Library Test Script
-*(Directly fulfills Section 4 requirement of the assignment)*
 
 Make sure the FastAPI server is running in one terminal, then run:
 
@@ -321,7 +319,7 @@ pytest tests/test_api_client.py -v
 
 ## Demonstration Video
 
-- **Video Link**: [YouTube / Google Drive Link Here](https://youtu.be/your-demo-video-link)
+- **Video Link**: [Watch Demo Video](https://youtu.be/your-demo-video-link)
 - **Duration**: Maximum 5 minutes
 - **Content**: Model introduction, architecture overview, execution demo, test runs with multiple inputs, and results explanation.
 
