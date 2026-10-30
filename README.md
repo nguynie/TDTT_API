@@ -55,8 +55,6 @@ TDTT_API/
 │   ├── model.py               # Hugging Face transformers pipeline manager
 │   ├── routes.py              # API routes: GET /, GET /health, POST /predict
 │   └── main.py                # FastAPI application entrypoint, CORS, exception handlers
-├── notebooks/
-│   └── exploration_and_demo.ipynb  # Interactive Jupyter notebook for exploration & testing
 ├── tests/
 │   ├── __init__.py            # Test package
 │   ├── test_api_requests.py   # API integration tests using `requests` library
