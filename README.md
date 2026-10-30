@@ -322,9 +322,3 @@ pytest tests/test_api_client.py -v
 - **Video Link**: [Watch Demo Video](https://youtu.be/your-demo-video-link)
 - **Duration**: Maximum 5 minutes
 - **Content**: Model introduction, architecture overview, execution demo, test runs with multiple inputs, and results explanation.
-
----
-
-## License and Acknowledgments
-- Assignment developed for **Practice 01: Application Programming Interface**, Faculty of Information Technology, University of Science, VNU-HCM.
-- Hugging Face Model: [DistilBERT Base Uncased Finetuned SST-2](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) by the Hugging Face team.
