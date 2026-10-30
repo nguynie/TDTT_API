@@ -68,3 +68,7 @@ Thumbs.db
 # Hugging Face cache (if downloaded locally)
 hf_cache/
 .cache/
+
+# Local documents and demonstration notes
+*.pdf
+demo/

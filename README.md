@@ -59,12 +59,9 @@ TDTT_API/
 │   ├── __init__.py            # Test package
 │   ├── test_api_requests.py   # API integration tests using `requests` library
 │   └── test_api_client.py     # Automated unit/integration tests using pytest
-├── demo/
-│   └── video_presentation_script.md # Script & checklist for the 5-min demo video
 ├── requirements.txt           # Project dependencies
 ├── .gitignore                 # Git ignore file
-├── README.md                  # Comprehensive project documentation
-└── [LAB-2] API.pdf            # Original assignment specification
+└── README.md                  # Comprehensive project documentation
 ```
 
 ---
@@ -325,8 +322,8 @@ pytest tests/test_api_client.py -v
 ## Demonstration Video
 
 - **Video Link**: [YouTube / Google Drive Link Here](https://youtu.be/your-demo-video-link)
-- **Duration**: Under 5 minutes
-- **Presentation Script**: See [demo/video_presentation_script.md](demo/video_presentation_script.md) for full talking points, screen setup, and timing.
+- **Duration**: Maximum 5 minutes
+- **Content**: Model introduction, architecture overview, execution demo, test runs with multiple inputs, and results explanation.
 
 ---
 
