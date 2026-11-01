@@ -1,4 +1,4 @@
-# Practice 01: Application Programming Interface (Web API)
+# Application Programming Interface (Web API)
 **Course**: Computational Thinking (Tư duy tính toán)  
 **Faculty of Information Technology — University of Science, VNU-HCM**  
 **Lab Instructors**: Nguyen Ngoc Minh Chau, Le Duc Khoan  
@@ -10,7 +10,7 @@
 - **Full Name**: Nguyen Ngoc Phuc Nguyen
 - **Student ID**: 25127434
 - **Repository**: [https://github.com/Nguynie/TDTT_API](https://github.com/Nguynie/TDTT_API)
-- **Demonstration Video**: [Watch Demo Video on YouTube / Google Drive](https://youtu.be/your-demo-video-link)
+- **Demonstration Video**: [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1a0fv0LjUEZrt-EpNtre4XHQrhrnavaQ0/view?usp=sharing)
 
 ---
 
@@ -319,6 +319,6 @@ pytest tests/test_api_client.py -v
 
 ## Demonstration Video
 
-- **Video Link**: [Watch Demo Video](https://youtu.be/your-demo-video-link)
+- **Video Link**: [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1a0fv0LjUEZrt-EpNtre4XHQrhrnavaQ0/view?usp=sharing)
 - **Duration**: Maximum 5 minutes
 - **Content**: Model introduction, architecture overview, execution demo, test runs with multiple inputs, and results explanation.
